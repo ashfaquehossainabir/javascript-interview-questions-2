@@ -1,0 +1,42 @@
+/* Round 3 */
+/* Q-1: Ways to center a div */
+
+body {
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    width: 100%;
+    /* height: 100%; /* This is for way-1 */
+    height: 100vh; /* This is for way-2 */
+    /* display: flex; /* This is only for way-2 */
+    display: grid; /* This is only for way-3 */
+    justify-content: center; /* This is only for way-2 */
+    align-items: center; /* This is only for way-2 */
+}
+
+/* Way-1 */
+/*
+div {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+/* Way-2 */
+/*
+div {
+    background-color: aquamarine;
+    ( Using flex, you can center the div element. See on Body section for more settings. )
+}
+*/
+
+/* Way-3 */
+/*
+div {
+    background-color: aquamarine;
+    ( Using grid, you can center the div element. See on Body section for more settings. )
+}
+*/
